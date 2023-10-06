@@ -1,0 +1,34 @@
+### Symfony ###
+/vendor/
+/var/
+/public/bundles/
+/public/build/
+###> symfony/framework-bundle ###
+/.env
+/.env.test
+/.env.local
+/.env.local.php
+/.env.*.local
+/phpunit.xml
+###< symfony/framework-bundle ###
+###> symfony/phpunit-bridge ###
+/.phpunit/
+/phpunit-*.xml
+###< symfony/phpunit-bridge ###
+
+### Pratiques Générales PHP ###
+composer.phar
+composer.lock
+
+### IDE et Éditeurs de texte ###
+/.idea/
+.vscode/
+
+### Système d'Exploitation ###
+.DS_Store
+Thumbs.db
+
+### Fichiers temporaire et cache ###
+*.swp
+*.swo
+*.swn
